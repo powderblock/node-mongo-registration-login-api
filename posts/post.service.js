@@ -24,7 +24,6 @@ async function create(userParam) {
 
     const post = new Post(userParam);
     post.author = "BLADE";
-    post.tags = "yolo, code, diet coke";
     post.id = "123ABC";
 
     // save user
